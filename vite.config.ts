@@ -4,5 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+    // GitHub repository name
+  base: "/my-portfolio/",
   server: { allowedHosts: ["terminal.local"] },
 });
